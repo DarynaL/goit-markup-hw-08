@@ -1,0 +1,35 @@
+.modal {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 528px;
+  padding: 40px;
+  background-color: #ffffff;
+}
+
+.modal-title {
+  margin-bottom: 12px;
+  @include font(20px, 700, 1.15, 0.03em);
+  text-align: center;
+}
+.close-button {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 8px;
+  right: 8px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: transparent;
+  cursor: pointer;
+  transition: fill 250ms linear;
+
+  &:focus,
+  &:hover {
+    fill: var(--accent-color);
+  }
+}
