@@ -838,6 +838,8 @@ body {
 }
 
 .modal-form-field-comment {
+  display: flex;
+  flex-direction: column;
   margin-bottom: 20px;
 }
 
@@ -911,8 +913,9 @@ body {
   align-items: center;
   justify-content: center;
   margin-top: var(--accent-color);
-  font-size: 14px;
-  line-height: 1.71px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.16;
   letter-spacing: 0.03em;
   color: var(--secondary-color);
   margin-bottom: 30px;
@@ -939,7 +942,7 @@ body {
 }
 
 .modal-form-link {
-  margin-left: 4px;
+  margin-left: 3px;
   color: var(--accent-color);
   transition: border-color 250ms linear;
 }
@@ -966,6 +969,15 @@ body {
   background: #188ce8;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+}
+
+@media screen and (min-width: 1200px) {
+  .modal-form-checkbox-label {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+  }
 }
 
 .filters-list {
