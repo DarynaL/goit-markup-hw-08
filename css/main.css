@@ -785,7 +785,7 @@ body {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  width: 528px;
+  width: 450px;
   padding: 40px;
   background-color: #ffffff;
 }
@@ -817,6 +817,12 @@ body {
 
 .close-button:focus, .close-button:hover {
   fill: var(--accent-color);
+}
+
+@media screen and (min-width: 1200px) {
+  .modal {
+    width: 528px;
+  }
 }
 
 .modal-form {
@@ -854,7 +860,7 @@ body {
   height: 40px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
-  padding-left: 40px;
+  padding-left: 42px;
   cursor: pointer;
   transition: border-color 250ms linear;
 }
