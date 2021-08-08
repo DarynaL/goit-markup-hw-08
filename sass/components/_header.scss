@@ -2,6 +2,7 @@
   .header {
     padding-top: 16px;
     padding-bottom: 16px;
+    border-bottom: 1px solid #ececec;
   }
   .navigation__list {
     display: none;
@@ -141,9 +142,9 @@
   }
 }
 @media screen and (min-width: 768px) {
-  .header {
-    border-bottom: 1px solid #ececec;
-  }
+  // .header {
+  //   border-bottom: 1px solid #ececec;
+  // }
   .burger-button {
     display: none;
   }
