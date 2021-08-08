@@ -533,6 +533,9 @@ body {
   .footer-contacts {
     margin-bottom: 0px;
   }
+  .footer-form-input {
+    width: 450px;
+  }
 }
 
 @media screen and (min-width: 1200px) {
